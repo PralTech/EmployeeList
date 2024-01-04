@@ -1,0 +1,126 @@
+*,
+::after,
+::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* utility class */
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+.form-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight: 600;
+    padding: auto;
+    text-align: center;
+    margin: 1rem;
+}
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .form-buttons button{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  }
+.btn-primary {
+    background-color: #4caf50;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.form-buttons button:hover{
+    background-color: #45a049;
+}
+
+
+.employee-form {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+select{
+    height: 1.8rem;
+}
+
+
+.inputLabel {
+    font-size: 1.2rem;
+    font-family: Inter;
+    margin-bottom: 0.9rem;
+}
+.gender-options{
+    margin-top:0.5rem;
+    margin-bottom: 0.4rem;
+}
+.contact-methods{
+    margin-top:0.9rem;
+    margin-bottom: 0.5rem;
+}
+.maritalStatus{
+    margin-top: 0.9rem;
+}
+
+input {
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+.table-container{
+    margin-top: 2rem;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    
+}
+
+th {
+    border: 1px solid black;
+    height: 2rem;
+    width: 3rem;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
